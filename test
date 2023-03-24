@@ -7,7 +7,9 @@ public class test {
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.justdial.com/");
+		driver.get("https://www.facebook.com/");
 		driver.close();
+		driver.quit();
     }
     }
 		
